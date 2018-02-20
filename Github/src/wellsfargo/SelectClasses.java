@@ -13,6 +13,7 @@ public class SelectClasses {
 		WebDriver driver = new ChromeDriver ();
 		driver.manage().window().maximize();
 		driver.get("http://redbus.in");	
+		driver.close();
 	}
 
 }
